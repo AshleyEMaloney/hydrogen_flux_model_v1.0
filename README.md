@@ -1,1 +1,5 @@
 # hydrogen_flux_model_v1.0
+2016 Ashley E. Maloney (ashjames@uw.edu) 
+Stationary 6-box model of hydrogen and deuterium cycling in phytoplankton for testing tsensitivity of δ2Hlipid to metabolic parameters. This model was developed for the paper "Exploring lipid 2H/1H fractionation mechanisms in response to salinity with continuous cultures of the diatom Thalassiosira pseudonana" published in Organic Geochemistry by A.E. Maloney, A.L.C. Shinneman, K. Hemeon, and J.P. Sachs of the University of Washington (http://dx.doi.org/10.1016/j.orggeochem.2016.08.015)
+
+There are 6 individual "Metabolic Parameter" scripts: use these for tinkering with with the model if you want to change alphas or flux porportionality assumptions since there is a mass balance check for each pool of hydrogen (if the fluxes into each pool do not equal the fluxes out of each pool than you have violated the steady-state assumption). A longer script is provided that was used for making the figures. Additionally a schematic is provided to help illustrate what the model is doing and a "cheat sheet" to pair the numbers used in the script to each flux.
