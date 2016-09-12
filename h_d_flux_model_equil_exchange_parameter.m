@@ -81,7 +81,7 @@ alphaLe=(dDLe+1000)/(dDMe+1000);
 alphaOe=(dDOe+1000)/(dDMe+1000);
 %<<<< LOOP THROUGH; GRAPH TESTABLE VARIABLE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 add=.1;
-for i = 2:60
+for i = 2:110
 Ee(i)=Ee(i-1)+add;
 j3e(i)=Ee(i);                           
 j4e(i)=j3e(i);
