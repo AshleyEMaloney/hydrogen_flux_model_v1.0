@@ -1,12 +1,12 @@
 % METABOLIC PARAMETER "E"
 % 2016 Ashley E. Maloney (ashjames@uw.edu)
 % Stationary 6-box model of hydrogen and deuterium cycling in phytoplankton 
-% For manuscript "Exploring lipid ²H/¹H fractionation mechanisms in 
+% For manuscript "Exploring lipid Â²H/Â¹H fractionation mechanisms in 
 % response to salinity with continuous cultures of the diatom Thalassiosira
 % pseudonana" published in Organic Geochemistry by A.E. Maloney, A.L.C. Shinneman, 
 % K. Hemeon, and J.P. Sachs of the University of Washington. http://dx.doi.org/10.1016/j.orggeochem.2016.08.015
 % Tests sensitivity of dDlipid & other pools to metabolic parameters 
-% (D = ²H = deuterium)
+% (D = Â²H = deuterium)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear all; clc; close all;
 %%
@@ -107,7 +107,7 @@ subplot(2,2,1);
 plot (Ee,alphaOe,'-r','LineWidth',3);
 hold on
 plot (Ee,alphaLe,'-b','LineWidth',3);
-axis([0 5 0.6 1]);
+axis([0 10 0.6 1]);
 xlabel('E','FontWeight','Bold','FontAngle','Italic');
 ylabel('a','FontName','Symbol','FontWeight','Bold'); 
 legend('   alpha Organics-Media', '   alpha Lipids-Media');
@@ -122,7 +122,7 @@ plot (Ee,dDOe,'LineWidth',3,'Color',[1,0,0]);
 plot (Ee,dDLe,'LineWidth',3,'Color',[0,0,1]);
 plot (Ee,dDNPe,'--','LineWidth',2,'Color',[0,1,.1]); 
 plot (Ee,dDNme,'--','LineWidth',2,'Color',[1,0.5,.1]); 
-axis([0 5 -700 200]);
+axis([0 10 -700 200]);
 xlabel('E','FontWeight','Bold','FontAngle','Italic'); 
 ylabel('d','FontName','Symbol'); 
 legend('  Media','  Cell Water','  Other Organics','   Lipids','  NADPH PS1','  Metabolic NAD(P)H');
