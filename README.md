@@ -8,7 +8,7 @@ A.E. Maloney, A.L.C. Shinneman, K. Hemeon, and J.P. Sachs (2016). Exploring lipi
 There are 6 individual "Metabolic Parameter" scripts: use these for tinkering with with the model if you want to change alphas or flux porportionality assumptions since there is a mass balance check for each pool of hydrogen (if the fluxes into each pool do not equal the fluxes out of each pool than you have violated the steady-state assumption). A longer script is provided that was used for making the figures. Additionally there is a schematic to help illustrate what the model is doing and a "cheat sheet" to pair the numbers used in the script to each flux.
 
 # Software
-MatLab student version R2013a
+Created using MatLab student version R2013a
 
 # Acknowledgements
 XXX vetted this code release. We also appreciate the assistance of Allison Smith.
