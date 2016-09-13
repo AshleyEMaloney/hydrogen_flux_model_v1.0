@@ -5,7 +5,7 @@ Please cite the following paper if you use this code:
 
 A.E. Maloney, A.L.C. Shinneman, K. Hemeon, and J.P. Sachs (2016). Exploring lipid 2H/1H fractionation mechanisms in response to salinity with continuous cultures of the diatom Thalassiosira pseudonana. Organic Geochemistry. http://dx.doi.org/10.1016/j.orggeochem.2016.08.015
 
-There are 6 individual "Metabolic Parameter" scripts: use these for tinkering with with the model if you want to change alphas or flux porportionality assumptions since there is a mass balance check for each pool of hydrogen (if the fluxes into each pool do not equal the fluxes out of each pool than you have violated the steady-state assumption). A longer script is provided that was used for making the figures. Additionally there is a schematic to help illustrate what the model is doing and a "cheat sheet" to pair the flux numbers used in the script to each flux name from the paper.
+There are 6 individual "Metabolic Parameter" scripts: use these for tinkering with with the model if you want to change alphas or flux proportionality assumptions since there is a mass balance check for each pool of hydrogen (if the fluxes into each pool do not equal the fluxes out of each pool than you have violated the steady-state assumption). A longer script is provided that was used for making the figures. Additionally there is a schematic to help illustrate what the model is doing and a "cheat sheet" to pair the flux numbers used in the script to each flux name from the paper.
 
 # Software
 Created using MatLab student version R2013a
