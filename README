@@ -1,4 +1,7 @@
 # hydrogen_flux_model_v1.0
+
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.153986.svg)](https://doi.org/10.5281/zenodo.153986)
+ 
 Stationary 6-box Matlab model of hydrogen and deuterium cycling in phytoplankton for testing the sensitivity of δ2Hlipid to metabolic parameters. 
 
 Please cite the following paper if you use this code:
